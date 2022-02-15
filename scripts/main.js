@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const material = createChromaMaterial(texture, 0x00ff00); // 0x00ff00: Green screen removal
     const plane = new THREE.Mesh(geometry, material);
 
-    plane.rotation.x = Math.PI/2;
+    //plane.rotation.x = Math.PI/2;
     plane.position.y = 0.7;
     plane.scale.multiplyScalar(2);
 
